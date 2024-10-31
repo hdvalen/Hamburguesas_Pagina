@@ -69,22 +69,23 @@ li.nav-link:hover {
 li.nav-link a {
     text-decoration: none;
     color: inherit;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: large;
     text-transform: uppercase;
-}
+  }
   
-@media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     nav .bars {
       display: block;
     }
   
-nav .nav-links {
+    nav .nav-links {
       display: none;
     }
-}
+  }
 /*header*/
 .container1{
-    height: 850px;
+    height: 890px;
 }
 .inicio{
     position: relative;
@@ -119,6 +120,12 @@ nav .nav-links {
     text-decoration: none;
     color: white;
     padding: 5px;
+}
+
+.boton:hover{
+    background-color: #fc5603;
+    color: #d6d4d2;
+    border: #fc5603;
 }
 
 /*about*/
@@ -183,7 +190,7 @@ nav .nav-links {
     width: 350px;
     background-color: #ffefe8;
     position: relative;
-    left: 700px;
+    left: 720px;
     bottom: 279px;
     padding-top: 5px;
 }
@@ -193,15 +200,15 @@ nav .nav-links {
     width: 350px;
     background-color: #ffefe8;
     position: relative;
-    left: 1200px;
+    left: 1300px;
     bottom: 619px;
     padding-top: 5px;
 }
 .contact{
     background-color: #ffefe8;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
-    height: 300px;
+    height: 350px;
     margin-left: 90px;
     margin-right: 90px;
 }
@@ -240,4 +247,81 @@ nav .nav-links {
 }
 .text4{
     color: white;
+}
+
+.service{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.boton2{
+    margin-top: 50px;
+    border: 2px solid #ff702a;
+    background-color: #ff702a;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.boton2:hover{
+    background-color: #fc5603;
+    color: #d6d4d2;
+    border: #fc5603;
+}
+
+.footer{
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+.menLinks{
+    position: relative;
+    width: 300px;
+    left: 200px;
+    bottom: 400px;
+
+}
+.OurService{
+    position: relative;
+    width: 300px;
+    left: 600px;
+    bottom: 580px;
+}
+
+.Information{
+    position: relative;
+    width: 300px;
+    left: 1000px;
+    bottom: 750px;
+}
+.ContactUs{
+    position: relative;
+    width: 300px;
+    left: 1400px;
+    bottom: 900px;
+}
+
+.textFooter{
+    color: white;
+    text-align: justify;
+}
+.subFooter:hover{
+    color: #ff702a;
+}
+.subFooter{
+    color: white;
+    border-bottom: 2px solid  #ff702a;
+}
+.icono{
+    background-color: #ff702a;
+    margin-top: 10px ;
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.icono:hover{
+    background-color:#fc5603;
 }
